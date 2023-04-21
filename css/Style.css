@@ -83,11 +83,18 @@ article h3{
     display: flex;
     flex-direction: column;
 }
+.idiomas > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
 
 .direccion p{
     margin: 5px;
     text-align: center;
 }
+
 .contacto div i{
     padding: 5px;
     border-radius: 50%;
@@ -102,6 +109,7 @@ article h3{
     align-items: center;
     justify-content: flex-end;
 }
+
 .idiomas > div>div{
     margin-left: 5px;
     border: 2px solid rgb(78, 41, 14);
@@ -124,7 +132,44 @@ article h3{
     width: 50%;
     background-color: orange;
 }
+
 .datos{
     width: 67.5%;
     padding: 10px;
+}
+
+.educacion p::before{
+    font-family: "Font Awesome 6 Free";
+    content:"\f111  ";
+    margin: 5px;
+}
+
+.experiencia p::before{
+    font-family: "Font Awesome 6 Free";
+    content:"*  ";
+    margin: 5px;
+}
+
+.otros p::before{
+    font-family: "Font Awesome 6 Free";
+    content:"\f061  ";
+    margin: 5px;
+}
+
+.conocimiento{
+    display: flex;
+    flex-direction: column;
+}
+
+.conocimiento div{
+    display: flex;
+    align-items: center;
+}
+.conocimiento div i{
+    float: left;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(78, 41, 14);
+    color: antiquewhite;
+    margin: 5px;
 }
