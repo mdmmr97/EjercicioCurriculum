@@ -37,22 +37,23 @@ main {
     font-style: italic;
     font-size: 30px;
     font-weight: bold;
-    color: crimson;
+    color: rgb(199, 91, 15);
+    margin: 15px;
 }
 
 #cabecera h1{
     font-size: 50px;
     font-weight: 900;
-    margin: 15px;
-}
-
-#cabecera h2{
-    margin: 15px;
 }
 
 article{
     float: left;
     box-sizing: border-box;
+    padding: 10px;
+    height: 79%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 article h3{
@@ -60,13 +61,68 @@ article h3{
     text-decoration:underline;
     color: rgb(78, 41, 14);
     text-decoration-color: rgb(78, 41, 14);
-    font-size: 25px;
+    font-size: 20px;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .detalles{
     width: 32.5%;
     padding: 10px;
     background-color: #f0deac;
+}
+
+.perfil p{
+    text-align: center;
+    text-indent: 10px;
+    margin: 10px;
+}
+
+.direccion {
+    display: flex;
+    flex-direction: column;
+}
+
+.direccion p{
+    margin: 5px;
+    text-align: center;
+}
+.contacto div i{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(78, 41, 14);
+    color: antiquewhite;
+    margin: 5px;
+}
+
+.idiomas > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.idiomas > div>div{
+    margin-left: 5px;
+    border: 2px solid rgb(78, 41, 14);
+    height: 20px;
+    width: 180px;
+}
+
+.español{
+    background-color:crimson;
+}
+
+.ingles>div{
+    height: 100%;
+    width: 75%;
+    background-color: orangered;
+}
+
+.frances>div{
+    height: 100%;
+    width: 50%;
+    background-color: orange;
 }
 .datos{
     width: 67.5%;
