@@ -83,12 +83,6 @@ article h3{
     display: flex;
     flex-direction: column;
 }
-.idiomas > div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-}
 
 .direccion p{
     margin: 5px;
